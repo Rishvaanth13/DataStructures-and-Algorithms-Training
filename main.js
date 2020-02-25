@@ -12,4 +12,13 @@ function reverse(str) {
     return backwards.join('');
   }
 }
-reverse('Finally I did something!!');
+
+function reverse2(str){
+  return str.split("").reverse().join('')
+}
+reverse2('Finally I did something in builtin functions')
+
+const reverse3 = str => str.split('').reverse().join('');
+
+
+reverse3("Hi This is ES3 Concept I Hope I will understand Later on")
